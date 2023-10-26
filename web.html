@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./assets/revoulogo.png" alt="revoulogo">
+        </div>
+        <div class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Profile</a>
+            <a class="nav-item">Portofolio</a>
+            <a href="#message-us" class="nav-item">Message Us</a>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="gretings">
+            <h1>Hi er, Welcome to website</h1>
+            <p>Ini merupakan website latihan</p>
+        </div>
+    </section>
+    <section class="headquarters">
+        <h1>Our Headquarters</h1>
+        <div class="hq-items">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </section>
+    <section class="border"></section>
+    <section id="message-us" class="from">
+        <h1>Message-us</h1>
+        <div class="from-left"></div>
+        <form class="from-left">
+            <table>
+                <td>Nama</td>
+                <td>:</td>
+                <td>
+                    <input id="Nama" name="Nama" type="text" placeholder="Nama">
+                </td>
+            </table>
+            <table class="from-left">
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input id="Tanggal Lahir" name="Tanggal Lahir" type="date" placeholder="Tanggal Lahir">
+                </td>
+            </table>
+            <table class="from-left">
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input id="laki-laki" name="gender" type="radio" value="Laki-laki">
+                    <label for="Laki-laki">Laki-laki</label>
+                    <input id="perempuan" name="gender" type="radio" value="Perempuan">
+                    <label for="Perempuan">Perempuan</label>
+                </td>
+            </table>
+            <table class="from-left">
+                <td>Pesan</td>
+                <td>:</td>
+                <td>
+                    <input id="Pesan" name="Pesan" type="text" style="height:100px;width:200px" placeholder="Pesan">
+                </td>
+            </table>
+            <button class="from-left" type="button">Sumbit</button>
+        </form>
+        <div class="from-right"></div>
+    </section>
+    <section class="footer">
+        <center>
+            <p class="footer-text">Made by er</p>
+        </center>
+    </section>
+    <script src="./js/ script.js"></script>
+</body>
+
+</html>
